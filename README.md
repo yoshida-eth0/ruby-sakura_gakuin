@@ -1,6 +1,6 @@
 # SakuraGakuin
 
-TODO: Write a gem description
+All about a limited growth period only Japanese idol Sakura Gakuin.
 
 ## Installation
 
@@ -15,6 +15,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install sakura_gakuin
+
+## Example
+
+https://github.com/yoshida-eth0/ruby-sakura_gakuin/tree/master/example
 
 ## Usage
 
