@@ -1,0 +1,41 @@
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: バトン部
+club_name_en: Baton Club
+group_name_ja: Twinklestars
+group_name_en: Twinklestars
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: 新聞部
+club_name_en: Newspaper Club
+group_name_ja: SCOOPERS
+group_name_en: SCOOPERS
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: 重音部
+club_name_en: Heavy Music Club
+group_name_ja: BABYMETAL
+group_name_en: BABYMETAL
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: クッキング部
+club_name_en: Cooking Club
+group_name_ja: ミニパティ
+group_name_en: Minipati
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: 帰宅部
+club_name_en: Go Home Club
+group_name_ja: sleepiece
+group_name_en: sleepiece
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: テニス部
+club_name_en: Tennis Club
+group_name_ja: Pastel Wind
+group_name_en: Pastel Wind
+
+--- !ruby/object:SakuraGakuin::Club
+club_name_ja: 科学部
+club_name_en: Science Club
+group_name_ja: 科学究明機構ロヂカ？
+group_name_en: Scientific Investigation Department LOGICA?

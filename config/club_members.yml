@@ -1,0 +1,238 @@
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  ayami_muto
+admission_date: 2010-10-01 # 日にちは不明
+graduation_date: 2012-03-25
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  marina_horiuchi
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  raura_iida
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  nene_sugisaki
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  hinata_sato
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  yui_mizuno
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  moa_kikuchi
+admission_date: 2010-10-01 # 日にちは不明
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  baton_club
+member_id: !ruby/sym
+  yunano_notsu
+admission_date: 2013-03-01 # 日にちは不明
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  newspaper_club
+member_id: !ruby/sym
+  ayaka_miyoshi
+admission_date: 2010-11-28
+graduation_date: 2012-03-25
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  newspaper_club
+member_id: !ruby/sym
+  airi_matsui
+admission_date: 2010-11-28
+graduation_date: 2012-03-25
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  heavy_music_club
+member_id: !ruby/sym
+  suzuka_nakamoto
+name_ja: SU-METAL
+name_en: SU-METAL
+admission_date: 2010-11-28
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  heavy_music_club
+member_id: !ruby/sym
+  yui_mizuno
+name_ja: YUIMETAL
+name_en: YUIMETAL
+admission_date: 2010-11-28
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  heavy_music_club
+member_id: !ruby/sym
+  moa_kikuchi
+name_ja: MOAMETAL
+name_en: YUIMETAL
+admission_date: 2010-11-28
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  raura_iida
+admission_date: 2009-04-01 # 日にちは不明
+graduation_date: 2011-07-23
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  marina_horiuchi
+admission_date: 2009-04-01 # 日にちは不明
+graduation_date: 2011-07-23
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  nene_sugisaki
+admission_date: 2009-04-01 # 日にちは不明
+graduation_date: 2011-07-23
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  hana_taguchi
+admission_date: 2011-07-23
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  yui_mizuno
+admission_date: 2011-07-23
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  cooking_club
+member_id: !ruby/sym
+  moa_kikuchi
+admission_date: 2011-07-23
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  go_home_club
+member_id: !ruby/sym
+  raura_iida
+admission_date: 2010-11-28
+graduation_date: 2013-11-01
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  go_home_club
+member_id: !ruby/sym
+  marina_horiuchi
+admission_date: 2010-11-28
+graduation_date: 2013-11-01
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  go_home_club
+member_id: !ruby/sym
+  nene_sugisaki
+admission_date: 2010-11-28
+graduation_date: 2013-11-01
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  tennis_club
+member_id: !ruby/sym
+  nene_sugisaki
+admission_date: 2012-08-04
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  tennis_club
+member_id: !ruby/sym
+  marina_horiuchi
+admission_date: 2012-08-04
+graduation_date: 2013-05-05
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  tennis_club
+member_id: !ruby/sym
+  hana_taguchi
+admission_date: 2012-08-04
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  tennis_club
+member_id: !ruby/sym
+  yunano_notsu
+admission_date: 2012-08-04
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  tennis_club
+member_id: !ruby/sym
+  saki_ooga
+admission_date: 2013-05-05
+
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  science_club
+member_id: !ruby/sym
+  marina_horiuchi
+name_ja: 堀内研究員
+name_en: MaRi7
+admission_date: 2012-09-01
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  science_club
+member_id: !ruby/sym
+  hinata_sato
+name_ja: 佐藤研究員
+name_en: Hi7TA
+admission_date: 2012-09-01
+
+--- !ruby/object:SakuraGakuin::ClubMember
+club_id: !ruby/sym
+  science_club
+member_id: !ruby/sym
+  rinon_isono
+name_ja: 磯野研究員
+name_en: RiNon
+admission_date: 2012-09-01
+

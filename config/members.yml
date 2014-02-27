@@ -1,0 +1,565 @@
+# さくら学院メンバーデータ
+#
+# 開校日
+#   開校日が不明な為、初期メンバーの入学日を2010-04-01と仮定する。
+#
+# 在学中のメンバーの卒業日
+#   卒業式の日程が決まっている場合は卒業式の日とする。
+#   決まっていない場合は暫定として中学3年生の03-31とし、卒業式の日程が決まり次第更新する。
+#
+# 身長データ及び更新日
+#   身長の日付は、情報を確認出来た日付なので公開された日付より遅れている可能性が大いにある。
+#   データは主に以下のサイトから収集し、極力正確な日付に近づける。
+#   2013年11月〜2014年1月頃のWikipediaの身長データが明らかに間違っているのでWikipediaの情報を安易に信じてはいけない。
+#     http://web.archive.org/web/*/http://www.sakuragakuin.jp/
+#     https://www.google.co.jp/search?q=site:megalodon.jp+inurl:www.sakuragakuin.jp/members
+#     https://www.google.co.jp/search?q=site:www.sakuragakuin.jp+inurl:members
+#     http://ja.wikipedia.org/wiki/%E3%81%95%E3%81%8F%E3%82%89%E5%AD%A6%E9%99%A2
+#   注：オフィシャルサイトの身長データ1つめは入学日・転入日のものとする。
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 彩未
+firstname_kana: あやみ
+firstname_en: Ayami
+lastname_ja: 武藤
+lastname_kana: むとう
+lastname_en: Muto
+nicknames:
+  - あやみ
+  - あやみちゃん
+  - あやみん
+birthday: 1996-04-29
+birthplace_ja: 茨城県
+birthplace_en: Ibaraki
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 148
+  2011-07-08: 149
+admission_date: 2010-04-01
+graduation_date: 2012-03-25
+diary_theme: 10022140501
+introductions: !ruby/hash
+attendances: !ruby/hash
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 彩花
+firstname_kana: あやか
+firstname_en: Ayaka
+lastname_ja: 三吉
+lastname_kana: みよし
+lastname_en: Miyoshi
+nicknames:
+  - みよっちゃん
+  - あやか
+  - あやかちゃん
+  - みよし
+birthday: 1996-06-18
+birthplace_ja: 埼玉県
+birthplace_en: Saitama
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 168
+  2011-07-08: 169
+  2012-10-15: 171 # 卒業後
+admission_date: 2010-04-01
+graduation_date: 2012-03-25
+diary_theme: 10022643917
+introductions: !ruby/hash
+attendances: !ruby/hash
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 愛莉
+firstname_kana: あいり
+firstname_en: Airi
+lastname_ja: 松井
+lastname_kana: まつい
+lastname_en: Matsui
+nicknames:
+  - あいりーん
+  - あいり
+  - あいりちゃん
+birthday: 1996-12-26
+birthplace_ja: 福島県
+birthplace_en: Fukushima
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 167
+  2011-07-08: 170
+  2013-03-27: 171 # 卒業後
+admission_date: 2010-04-01
+graduation_date: 2012-03-25
+diary_theme: 10022864703
+introductions: !ruby/hash
+attendances: !ruby/hash
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: すず香
+firstname_kana: すずか
+firstname_en: Suzuka
+lastname_ja: 中元
+lastname_kana: なかもと
+lastname_en: Nakamoto
+nicknames:
+  - すぅちゃん
+  - すぅさん
+  - すぅ
+  - すーちゃん
+  - すーさん
+  - すー
+  - すずかちゃん
+birthday: 1997-12-20
+birthplace_ja: 広島県
+birthplace_en: Hiroshima
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 153
+  2011-07-08: 159
+admission_date: 2010-04-01
+graduation_date: 2013-03-31
+diary_theme: 10022743007
+introductions: !ruby/hash
+  2012: |-
+    歌とダンスで はみだしちゃって神降臨
+    しゃべってびっくり 予測は不能の神降臨
+    (アイネームイズスズカ!)
+attendances: !ruby/hash
+  2012: はーい!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 愛莉鈴
+firstname_kana: まりり
+firstname_en: Mariri
+lastname_ja: 杉本
+lastname_kana: すぎもと
+lastname_en: Sugimoto
+nicknames:
+  - まりり
+  - まりりちゃん
+lastname_en: Sugimoto
+birthday: 2000-08-04
+birthplace_ja: 広島県
+birthplace_en: Hiroshima
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2012-05-06: 160
+  2013-02-23: 163
+  2014-02-22: 165 # 卒業後
+admission_date: 2012-05-06
+graduation_date: 2013-03-31
+diary_theme: 10054437918
+introductions: !ruby/hash
+  2012: |-
+    広島県から通ってます(本気です)
+    家に帰るの命がけ
+    「ガソリン満タンですか?」(いやいやいや、人間じゃけん!)
+attendances: !ruby/hash
+  2012: ハロー!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: まり菜
+firstname_kana: まりな
+firstname_en: Marina
+lastname_ja: 堀内
+lastname_kana: ほりうち
+lastname_en: Horiuchi
+nicknames:
+  - まりっぺ
+  - まりまり
+  - まりな
+  - まりなちゃん
+birthday: 1998-04-29
+birthplace_ja: 東京都
+birthplace_en: Tokyo
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 138
+  2010-07-16: 142
+  2011-07-08: 146
+  2011-12-19: 149
+  2013-03-08: 150
+admission_date: 2010-04-01
+graduation_date: 2014-03-30
+diary_theme: 10022401128
+introductions: !ruby/hash
+  2012: &marina_horiuchi_introductions_2012 |-
+    妖精くんに囲まれて 四六時中
+    ロマンチック メルヘンチック おまかせ
+    (レッツ ドリーミング)
+  2013: *marina_horiuchi_introductions_2012
+attendances: !ruby/hash
+  2012: よっす!
+  2013: 発進!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 來麗
+firstname_kana: らうら
+firstname_en: Raura
+lastname_ja: 飯田
+lastname_kana: いいだ
+lastname_en: Iida
+nicknames:
+  - らう
+  - らうちゃん
+  - らうら
+  - らうらちゃん
+birthday: 1998-04-09
+birthplace_ja: 東京都
+birthplace_en: Tokyo
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 146
+  2010-07-21: 148
+  2011-07-08: 153
+  2011-12-19: 155
+  2012-09-05: 157
+  2013-04-15: 158
+admission_date: 2010-04-01
+graduation_date: 2014-03-30
+diary_theme: 10022514927
+introductions: !ruby/hash
+  2012: |-
+    パンダ大好きお嬢様(この)腕っ節
+    下級生に手加減ナシのアネゴ肌
+    (え~何っ!!)
+  2013: |-
+    パンダ大好きお嬢様(この)腕っ節
+    下級生に手加減ナシのアネゴ肌
+    (はいっ! 集中!!)
+attendances: !ruby/hash
+  2012: なにー!?
+  2013: はいっ!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 寧々
+firstname_kana: ねね
+firstname_en: Nene
+lastname_ja: 杉崎
+lastname_kana: すぎさき
+lastname_en: Sugisaki
+nicknames:
+  - ねねどん
+  - どん
+  - ねねジョン
+  - ジョン
+  - ジョンジョン
+  - ねね
+  - ねねちゃん
+birthday: 1998-05-08
+birthplace_ja: 茨城県
+birthplace_en: Ibaraki
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 138
+  2010-07-22: 144
+  2011-07-08: 152
+  2011-12-19: 155
+  2012-09-05: 157
+  2013-07-01: 159
+admission_date: 2010-04-01
+graduation_date: 2014-03-30
+diary_theme: 10022801627
+introductions: !ruby/hash
+  2012: |-
+    笑顔が(一番)、食い気(一番)ゆずれない
+    ライスにおかずはチャーハン
+    (あ~もう、たまりませ~ん!でもプリンは別腹っ♡)
+  2013: |-
+    笑顔が(一番)、食い気(一番)ゆずれない
+    ライスにおかずはチャーハン
+    (あ~もう、たまりませ~ん!
+    でもプリンは別腹っ♡)
+attendances: !ruby/hash
+  2012: なんだ!
+  2013: へーい!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 日向
+firstname_kana: ひなた
+firstname_en: Hinata
+lastname_ja: 佐藤
+lastname_kana: さとう
+lastname_en: Sato
+nicknames:
+  - ひーちゃん
+  - なたひー
+  - ひなた
+  - ひなたちゃん
+birthday: 1998-12-23
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-04-01: 140
+  2011-07-08: 147
+  2011-12-27: 151
+  2012-10-18: 153
+  2013-03-13: 155
+admission_date: 2010-04-01
+graduation_date: 2014-03-30
+diary_theme: 10022595592
+introductions: !ruby/hash
+  2012: |-
+    ぽかぽか笑顔を振いて(ニコニコイェイ)
+    いつでもイタズラ発明中(あ、ばれちゃいました!?)
+  2013: |-
+    ぽかぽか笑顔を振いて(ムーディー佐藤です)
+    いつでもイタズラ発明中(ヘヘヘッ!)
+attendances: !ruby/hash
+  2012: おっす!
+  2013: やっほー
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 由結
+firstname_kana: ゆい
+firstname_en: Yui
+lastname_ja: 水野
+lastname_kana: みずの
+lastname_en: Mizuno
+nicknames:
+  - ゆい
+  - ゆいちゃん
+  - ゆいたん
+birthday: 1999-06-20
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-08-02: 130
+  2011-07-08: 134
+  2012-09-05: 138
+  2013-07-01: 144
+  2013-11-09: 149
+admission_date: 2010-08-02
+graduation_date: 2015-03-31
+diary_theme: 10025556095
+introductions: !ruby/hash
+  2012: |-
+    怯えてピョンピョン、怖がりピョン ドキドキピョン
+    ジャンプで身長かせいでる?
+    (由結は、ちっちゃくないもん!)
+  2013: |-
+    怯えてピョンピョン、怖がりピョン ドキドキピョン
+    ジャンプで身長かせいでる?
+    (由結は、もう、ちっちゃくないもん!)
+attendances: !ruby/hash
+  2012: ぴょん!
+  2013: トマト!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 最愛
+firstname_kana: もあ
+firstname_en: Moa
+lastname_ja: 菊地
+lastname_kana: きくち
+lastname_en: Kikuchi
+nicknames:
+  - もあ
+  - もあちゃん
+  - もあもあ
+birthday: 1999-07-04
+birthplace_ja: 愛知県
+birthplace_en: Aichi
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2010-08-02: 129
+  2011-07-08: 133
+  2011-12-27: 136
+  2012-09-05: 139
+  2013-03-29: 145
+  2014-02-20: 148
+admission_date: 2010-08-02
+graduation_date: 2015-03-31
+diary_theme: 10025604354
+introductions: !ruby/hash
+  2012: &moa_kikuchi_introductions_2012 |-
+    アイドルだけどアイドルオタク ちっちゃい大人
+    小悪魔警報発令中(最愛に ご注意!)
+  2013: *moa_kikuchi_introductions_2012
+attendances: !ruby/hash
+  2012: なんじゃ?
+  2013: んちゃ!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 華
+firstname_kana: はな
+firstname_en: Hana
+lastname_ja: 田口
+lastname_kana: たぐち
+lastname_en: Taguchi
+nicknames:
+  - はな
+  - はなちゃん
+birthday: 2000-03-04
+birthplace_ja: 長野県
+birthplace_en: Nagano
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2011-07-23: 140
+  2011-12-19: 144
+  2012-09-05: 148
+  2013-07-01: 153
+  2014-02-21: 155
+admission_date: 2011-07-23
+graduation_date: 2015-03-31
+diary_theme: 10040250662
+introductions: !ruby/hash
+  2012: |-
+    右手に(貝ひも) 左に(スルメ) かじりつく
+    両手重ねて(クロスチョップ)
+    (はい、それじゃあ 今日の感動は?華ちゃん
+    「特にありません」)
+  2013: |-
+    右手に(貝ひも) 左に(スルメ) かじりつく
+    両手合わせて(クロスチョップ)
+    (華くん、今日の感想言ってくれっす!)
+    (特にあるぞ!)
+attendances: !ruby/hash
+  2012: はいよっ!
+  2013: やお!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 友那乃
+firstname_kana: ゆなの
+firstname_en: Yunano
+lastname_ja: 野津
+lastname_kana: のつ
+lastname_en: Notsu
+nicknames:
+  - ゆなの
+  - ゆなの # ゆなのじゃないよゆなのだよ
+  - ゆなのちゃん
+birthday: 1999-12-14
+birthplace_ja: 東京都
+birthplace_en: Tokyo
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2012-05-06: 151
+  2013-03-13: 156
+  2013-11-14: 161
+admission_date: 2012-05-06
+graduation_date: 2015-03-31
+diary_theme: 10054279546
+introductions: !ruby/hash
+  2012: |-
+    ニコニコしながら毒を吐く! 確信犯
+    自ら名付けたあだ名は?
+    (ニセ優等生!)
+  2013: |-
+    ニコニコしながら毒を吐く! 確信犯
+    自ら名付けたあだ名は?
+    (友那乃じゃないよ、友那乃だよ!)
+attendances: !ruby/hash
+  2012: はーい
+  2013: いぇい!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 莉音
+firstname_kana: りのん
+firstname_en: Rinon
+lastname_ja: 磯野
+lastname_kana: いその
+lastname_en: Isono
+nicknames:
+  - りのん
+  - りのんちゃん
+birthday: 2000-11-16
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2011-07-23: 146
+  2011-12-19: 150
+  2012-09-05: 155
+  2013-03-13: 158
+  2014-02-18: 160
+admission_date: 2011-07-23
+graduation_date: 2015-03-31
+diary_theme: 10040250676
+introductions: !ruby/hash
+  2012: |-
+    天才星で生まれ落ちた レゲエ育ち
+    悪そうな奴にもだいたいタメ口!
+    (意味わかんな~い)
+  2013: |-
+    天才星で生まれ落ちた レゲエ育ち
+    悪そうな奴にもだいたいタメ口!
+    (えっ 意味わかんな~い)
+attendances: !ruby/hash
+  2012: はい!
+  2013: んー!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 咲希
+firstname_kana: さき
+firstname_en: Saki
+lastname_ja: 大賀
+lastname_kana: おおが
+lastname_en: Ooga
+nicknames:
+  - ベイビーちゃん
+  - さきてぃー
+  - さき
+  - さきちゃん
+birthday: 2000-04-11
+birthplace_ja: 東京都
+birthplace_en: Tokyo
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2012-08-02: 138
+  2013-02-23: 143
+  2014-01-31: 145
+admission_date: 2012-05-06
+graduation_date: 2016-03-31
+diary_theme: 10054394214
+introductions: !ruby/hash
+  2012: |-
+    手に汗握る自己紹介 よろしくね(はいっ)
+    目線は上から?下から? (下から 下から)
+  2013: |-
+    手に汗握る自己紹介 よろしくね (はいっ!)
+    目線は上から?下から?(下から 下から)
+attendances: !ruby/hash
+  2012: どー!
+  2013: うそー!?
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 沙樹
+firstname_kana: さき
+firstname_en: Saki
+lastname_ja: 白井
+lastname_kana: しらい
+lastname_en: Shirai
+nicknames:
+  - しーちゃん
+  - しらさき
+  - さき
+  - さきちゃん
+birthday: 2000-09-28
+birthplace_ja: 新潟県
+birthplace_en: Niigata
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2013-06-09: 153
+admission_date: 2013-05-05
+graduation_date: 2016-03-31
+diary_theme: 10069381392
+introductions: !ruby/hash
+  2013: |-
+    自腹でライブに通ってました(CDも全部買いました!)
+    夢を叶えた元父兄
+    (さくら学院、大好き!!)
+attendances: !ruby/hash
+  2013: はーい!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 愛子
+firstname_kana: あいこ
+firstname_en: Aiko
+lastname_ja: 山出
+lastname_kana: やまいで
+lastname_en: Yamaide
+nicknames:
+  - あいこ
+  - あいこちゃん
+birthday: 2002-12-01
+birthplace_ja: 鹿児島県
+birthplace_en: Kagoshima
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2013-05-05: 132
+  2013-11-10: 136
+admission_date: 2013-05-05
+graduation_date: 2018-03-31
+diary_theme: 10069381434
+introductions: !ruby/hash
+  2013: |-
+    鹿児島県から通ってます(大変でごわす!)
+    山から出てきた 愛しい子供です。
+    (山出、誰だったら腕相撲勝てそう?)
+    (まり菜ちゃん!)
+    堀内(わっ!マジっすか?)
+attendances: !ruby/hash
+  2013: イエッサー!
