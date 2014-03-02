@@ -11,6 +11,7 @@
 #   身長の日付は、情報を確認出来た日付なので公開された日付より遅れている可能性が大いにある。
 #   データは主に以下のサイトから収集し、極力正確な日付に近づける。
 #   2013年11月〜2014年1月頃のWikipediaの身長データが明らかに間違っているのでWikipediaの情報を安易に信じてはいけない。
+#   オフィシャルサイト以外のソースについてはコメントで記載する。
 #     http://web.archive.org/web/*/http://www.sakuragakuin.jp/
 #     https://www.google.co.jp/search?q=site:megalodon.jp+inurl:www.sakuragakuin.jp/members
 #     https://www.google.co.jp/search?q=site:www.sakuragakuin.jp+inurl:members
@@ -319,6 +320,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2012-09-05: 138
   2013-07-01: 144
   2013-11-09: 149
+  2014-02-19: 152 # 西川貴教のちょこっとナイトニッポン 2014-02-19放送分にて
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025556095
@@ -355,7 +357,8 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2011-12-27: 136
   2012-09-05: 139
   2013-03-29: 145
-  2014-02-20: 148
+  2014-02-14: 148
+  2014-02-15: 150.7 # http://ameblo.jp/sakuragakuin/theme-10025604354.html
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025604354
