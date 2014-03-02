@@ -1,3 +1,7 @@
+#
+# 由結ちゃんのプロフィールを出力する。
+#
+
 $LOAD_PATH << File.expand_path("../lib", File.dirname(__FILE__))
 
 require 'sakura_gakuin'

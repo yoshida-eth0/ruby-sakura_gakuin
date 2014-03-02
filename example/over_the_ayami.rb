@@ -1,3 +1,7 @@
+#
+# メンバー毎の彩未ちゃんの身長を抜かした月を出力する。
+#
+
 $LOAD_PATH << File.expand_path("../lib", File.dirname(__FILE__))
 
 require 'sakura_gakuin'

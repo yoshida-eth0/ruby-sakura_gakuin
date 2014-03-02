@@ -1,3 +1,7 @@
+#
+# クラブ活動の一覧と、それに所属している（していた）メンバーの一覧を出力する。
+#
+
 $LOAD_PATH << File.expand_path("../lib", File.dirname(__FILE__))
 
 require 'sakura_gakuin'

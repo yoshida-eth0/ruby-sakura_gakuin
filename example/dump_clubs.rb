@@ -1,3 +1,7 @@
+#
+# クラブ活動のインスタンスを全てダンプする。
+#
+
 $LOAD_PATH << File.expand_path("../lib", File.dirname(__FILE__))
 
 require 'sakura_gakuin'
