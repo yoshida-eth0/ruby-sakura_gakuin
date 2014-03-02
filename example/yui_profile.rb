@@ -5,11 +5,13 @@ require 'pp'
 
 yui = SakuraGakuin::Member[:yui_mizuno]
 
+puts "ID: #{yui.id}"
 puts "Name(ja): #{yui.name_ja}"
 puts "Name(en): #{yui.name_en}"
 puts "Nicknames: #{yui.nicknames.join(" ")}"
 puts "Birthday: #{yui.birthday}"
 puts "Age: #{yui.age}"
+puts "Grade: #{yui.grade}"
 puts "Birthplace: #{yui.birthplace}"
 puts "DiaryURL: #{yui.diary_url}"
 puts

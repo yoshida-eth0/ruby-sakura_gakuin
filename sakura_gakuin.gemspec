@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = SakuraGakuin::VERSION
   spec.authors       = ["Yoshida Tetsuya"]
   spec.email         = ["yoshida.eth0@gmail.com"]
-  spec.description   = %q{All about a limited growth period only Japanese idol Sakura Gakuin.}
-  spec.summary       = %q{All about a limited growth period only Japanese idol Sakura Gakuin.}
+  spec.description   = %q{All about Japanese idol "Sakura Gakuin", that consists of limited to growth period girls only.}
+  spec.summary       = %q{All about Japanese idol "Sakura Gakuin", that consists of limited to growth period girls only.}
   spec.homepage      = "https://github.com/yoshida-eth0/ruby-sakura_gakuin"
   spec.license       = "MIT"
 

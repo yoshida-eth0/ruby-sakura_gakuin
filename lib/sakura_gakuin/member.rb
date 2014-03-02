@@ -71,7 +71,7 @@ module SakuraGakuin
     end
 
 
-    # sakrua data
+    # sakura data
 
     attr_reader :admission_date
     attr_reader :graduation_date
@@ -96,6 +96,24 @@ module SakuraGakuin
 
     attr_reader :introductions
     attr_reader :attendances
+
+    def grade(date=Date.today)
+      if active?
+        birth_adjust = birthday < Date.new(birthday.year, 4, 2) ? 1 : 0
+        birth_year = birthday.year - birth_adjust
+
+        date_adjust = date < Date.new(date.year, 4, 1) ? 1 : 0
+        date_year = date.year - date_adjust
+
+        grade_age = date_year - birth_year
+        case grade_age
+        when 7..12
+          "小等部#{grade_age-6}年"
+        when 13..15
+          "中等部#{grade_age-12}年"
+        end 
+      end 
+    end
 
 
     # relations
