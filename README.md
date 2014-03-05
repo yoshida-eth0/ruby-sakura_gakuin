@@ -1,6 +1,6 @@
 # SakuraGakuin
 
-All about Japanese idol "Sakura Gakuin", that consists of limited to growth period girls only.
+All about Sakura Gakuin, the Japanese idol limited for growth period.
 
 ## Installation
 

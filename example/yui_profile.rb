@@ -1,5 +1,5 @@
 #
-# 由結ちゃんのプロフィールを出力する。
+# 水野由結ちゃんのプロフィールを出力する。
 #
 
 $LOAD_PATH << File.expand_path("../lib", File.dirname(__FILE__))

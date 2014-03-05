@@ -10,13 +10,17 @@
 # 身長データ及び更新日
 #   身長の日付は、情報を確認出来た日付なので公開された日付より遅れている可能性が大いにある。
 #   データは主に以下のサイトから収集し、極力正確な日付に近づける。
-#   2013年11月〜2014年1月頃のWikipediaの身長データが明らかに間違っているのでWikipediaの情報を安易に信じてはいけない。
-#   オフィシャルサイト以外のソースについてはコメントで記載する。
 #     http://web.archive.org/web/*/http://www.sakuragakuin.jp/
 #     https://www.google.co.jp/search?q=site:megalodon.jp+inurl:www.sakuragakuin.jp/members
 #     https://www.google.co.jp/search?q=site:www.sakuragakuin.jp+inurl:members
 #     http://ja.wikipedia.org/wiki/%E3%81%95%E3%81%8F%E3%82%89%E5%AD%A6%E9%99%A2
+#
+#   2013年11月〜2014年1月頃のWikipediaの身長データが明らかに間違っているのでWikipediaの情報を安易に信じてはいけない。
+#   他サイトとの整合性を鑑みて以下のWikipedia情報は正しいものとする。
+#     2013年9月24日 (火) 14:03: http://ja.wikipedia.org/w/index.php?title=%E3%81%95%E3%81%8F%E3%82%89%E5%AD%A6%E9%99%A2&oldid=49209699
+#
 #   注：オフィシャルサイトの身長データ1つめは入学日・転入日のものとする。
+#   注：オフィシャルサイト以外のソースについてはコメントで記載する。
 
 --- !ruby/object:SakuraGakuin::Member
 firstname_ja: 彩未
@@ -318,8 +322,8 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2010-08-02: 130
   2011-07-08: 134
   2012-09-05: 138
-  2013-07-01: 144
-  2013-11-09: 149
+  2013-04-14: 144
+  2013-09-24: 149
   2014-02-19: 152 # 西川貴教のちょこっとナイトニッポン 2014-02-19放送分にて
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
@@ -357,7 +361,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2011-12-27: 136
   2012-09-05: 139
   2013-03-29: 145
-  2014-02-14: 148
+  2013-09-24: 148
   2014-02-15: 150.7 # http://ameblo.jp/sakuragakuin/theme-10025604354.html
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
@@ -389,7 +393,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2011-12-19: 144
   2012-09-05: 148
   2013-07-01: 153
-  2014-02-21: 155
+  2013-09-24: 155
 admission_date: 2011-07-23
 graduation_date: 2015-03-31
 diary_theme: 10040250662
@@ -425,7 +429,7 @@ birthplace_en: Tokyo
 heights: !ruby/hash:SakuraGakuin::DateHash
   2012-05-06: 151
   2013-03-13: 156
-  2013-11-14: 161
+  2013-09-24: 161
 admission_date: 2012-05-06
 graduation_date: 2015-03-31
 diary_theme: 10054279546
@@ -460,7 +464,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2011-12-19: 150
   2012-09-05: 155
   2013-03-13: 158
-  2014-02-18: 160
+  2013-09-24: 160
 admission_date: 2011-07-23
 graduation_date: 2015-03-31
 diary_theme: 10040250676
@@ -495,7 +499,7 @@ birthplace_en: Tokyo
 heights: !ruby/hash:SakuraGakuin::DateHash
   2012-08-02: 138
   2013-02-23: 143
-  2014-01-31: 145
+  2013-09-24: 145
 admission_date: 2012-05-06
 graduation_date: 2016-03-31
 diary_theme: 10054394214
@@ -553,7 +557,7 @@ birthplace_ja: 鹿児島県
 birthplace_en: Kagoshima
 heights: !ruby/hash:SakuraGakuin::DateHash
   2013-05-05: 132
-  2013-11-10: 136
+  2013-09-24: 136
 admission_date: 2013-05-05
 graduation_date: 2018-03-31
 diary_theme: 10069381434
