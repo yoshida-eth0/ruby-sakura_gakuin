@@ -281,6 +281,8 @@ nicknames:
   - なたひー
   - ひなた
   - ひなたちゃん
+  - ムーディー佐藤
+  - Sugar in the Sun # 公開授業「歌の考古学〜2013年度〜」にて
 birthday: 1998-12-23
 birthplace_ja: 神奈川県
 birthplace_en: Kanagawa
@@ -314,6 +316,7 @@ lastname_en: Mizuno
 nicknames:
   - ゆい
   - ゆいちゃん
+  - ゆぃゆぃ
   - ゆいたん
 birthday: 1999-06-20
 birthplace_ja: 神奈川県
@@ -325,6 +328,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2013-04-14: 144
   2013-09-24: 149
   2014-02-19: 152 # 西川貴教のちょこっとナイトニッポン 2014-02-19放送分にて
+  2014-03-09: 152.6 # 公開授業「歌の考古学〜2013年度〜」にて
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025556095
@@ -352,6 +356,8 @@ nicknames:
   - もあ
   - もあちゃん
   - もあもあ
+  - アーモンド
+  - モアイ像
 birthday: 1999-07-04
 birthplace_ja: 愛知県
 birthplace_en: Aichi
