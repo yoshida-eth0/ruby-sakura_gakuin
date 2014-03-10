@@ -13,11 +13,11 @@ module SakuraGakuin
 
     attr_reader :club_name_ja
     attr_reader :club_name_en
-    alias :club :club_name_ja
+    alias :club_name :club_name_ja
 
     attr_reader :group_name_ja
     attr_reader :group_name_en
-    alias :group :group_name_ja
+    alias :group_name :group_name_ja
 
     def name_ja(separator=" ")
       "#{club_name_ja}#{separator}#{group_name_ja}"
