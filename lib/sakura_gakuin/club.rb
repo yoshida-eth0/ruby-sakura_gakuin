@@ -45,7 +45,7 @@ module SakuraGakuin
     end
 
     def active_members(date=Date.today)
-      active_club_members.map(&:member)
+      active_club_members(date).map(&:member)
     end
   end
 end
