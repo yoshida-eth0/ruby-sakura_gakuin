@@ -416,7 +416,7 @@ introductions: !ruby/hash
     (特にあるぞ!)
 attendances: !ruby/hash
   2012: はいよっ!
-  2013: やお!
+  2013: イヤァオ!
 
 --- !ruby/object:SakuraGakuin::Member
 firstname_ja: 友那乃
