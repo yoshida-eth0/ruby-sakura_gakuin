@@ -8,6 +8,7 @@ module SakuraGakuin
 
     primary_key :id
 
+
     # angel data
 
     attr_reader :name_ja

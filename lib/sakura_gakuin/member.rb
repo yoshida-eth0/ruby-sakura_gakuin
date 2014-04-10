@@ -97,7 +97,7 @@ module SakuraGakuin
     attr_reader :introductions
     attr_reader :attendances
 
-    def grade(date=Date.today)
+    def grade_en(date=Date.today)
       if active?
         birth_adjust = birthday < Date.new(birthday.year, 4, 2) ? 1 : 0
         birth_year = birthday.year - birth_adjust
@@ -107,13 +107,23 @@ module SakuraGakuin
 
         grade_age = date_year - birth_year
         case grade_age
-        when 7..12
-          "小等部#{grade_age-6}年"
-        when 13..15
-          "中等部#{grade_age-12}年"
+        when 7..15
+          grade_age - 6
         end 
       end 
     end
+
+    def grade_ja(date=Date.today)
+      grade = grade_en
+      case grade
+      when 1..6
+        "小等部#{grade}年"
+      when 7..9
+        "中等部#{grade-6}年"
+      end
+    end
+
+    alias :grade :grade_ja
 
 
     # relations
