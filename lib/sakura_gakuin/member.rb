@@ -126,6 +126,10 @@ module SakuraGakuin
       club_members.map(&:club)
     end
 
+    def angel
+      Angel[id]
+    end
+
     def active_club_members(date=Date.today)
       club_members.select{|club_member| club_member.active?(date)}
     end

@@ -47,3 +47,16 @@ puts "Clubs:"
 yui.club_members.each do |club_member|
   puts "  #{club_member.name} in #{club_member.club.name}（#{club_member.admission_date}〜#{club_member.graduation_date}）"
 end
+puts
+
+angel = yui.angel
+if angel
+  puts "Angel:"
+  puts "  Name(ja): #{angel.name_ja}"
+  puts "  Name(en): #{angel.name_en}"
+  puts "  Catchphrase: #{angel.catchphrase}"
+  puts "  Hobby: #{angel.hobby}"
+  puts "  Worry: #{angel.worry}"
+  puts "  FavoriteSubject: #{angel.favorite_subject}"
+  puts "  Emoticon: #{angel.emoticon}"
+end
