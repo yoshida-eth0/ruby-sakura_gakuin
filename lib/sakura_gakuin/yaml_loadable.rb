@@ -9,9 +9,6 @@ module SakuraGakuin
       @data = []
       @indexes = {}
       @index_values = {}
-
-      attr_reader :id
-      create_index(:id, true)
     end
 
     module ClassMethods
@@ -27,10 +24,16 @@ module SakuraGakuin
         @index_values = {}
       end
 
-      def primary_key(*keys)
-        define_method(:id, ->() {
-          @id ||= keys.map{|k| send(k)}.join("_").downcase.gsub(" ", "_").to_sym
-        })
+      def primary_key(key, *keys)
+        keys = ([key] + keys).flatten
+        if keys.length==1 && keys.first==:id
+          attr_reader :id
+        else
+          define_method(:id, ->() {
+            @id ||= keys.map{|k| send(k)}.join("_").downcase.gsub(" ", "_").to_sym
+          })
+        end
+        create_index(:id, true)
       end
 
       def create_index(key, uniq=false)

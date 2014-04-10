@@ -6,10 +6,9 @@ module SakuraGakuin
 
     yaml_load "config/angels.yml"
 
-    primary_key :name_en
+    primary_key :id
 
-
-    # personal data
+    # angel data
 
     attr_reader :name_ja
     attr_reader :name_en
