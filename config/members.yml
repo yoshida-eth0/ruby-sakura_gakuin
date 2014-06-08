@@ -329,6 +329,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2013-09-24: 149
   2014-02-19: 152 # 西川貴教のちょこっとナイトニッポン 2014-02-19放送分にて
   2014-03-09: 152.6 # 公開授業「歌の考古学〜2013年度〜」にて
+  2014-05-05: 153
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025556095
@@ -369,6 +370,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2013-03-29: 145
   2013-09-24: 148
   2014-02-15: 150.7 # http://ameblo.jp/sakuragakuin/theme-10025604354.html
+  2014-05-05: 151
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025604354
@@ -400,6 +402,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2012-09-05: 148
   2013-07-01: 153
   2013-09-24: 155
+  2014-05-05: 159
 admission_date: 2011-07-23
 graduation_date: 2015-03-31
 diary_theme: 10040250662
@@ -436,6 +439,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2012-05-06: 151
   2013-03-13: 156
   2013-09-24: 161
+  2014-05-05: 164
 admission_date: 2012-05-06
 graduation_date: 2015-03-31
 diary_theme: 10054279546
@@ -471,6 +475,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2012-09-05: 155
   2013-03-13: 158
   2013-09-24: 160
+  2014-05-05: 163
 admission_date: 2011-07-23
 graduation_date: 2015-03-31
 diary_theme: 10040250676
@@ -506,6 +511,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2012-08-02: 138
   2013-02-23: 143
   2013-09-24: 145
+  2014-05-05: 148
 admission_date: 2012-05-06
 graduation_date: 2016-03-31
 diary_theme: 10054394214
@@ -537,6 +543,7 @@ birthplace_ja: 新潟県
 birthplace_en: Niigata
 heights: !ruby/hash:SakuraGakuin::DateHash
   2013-06-09: 153
+  2014-05-05: 155
 admission_date: 2013-05-05
 graduation_date: 2016-03-31
 diary_theme: 10069381392
@@ -564,6 +571,7 @@ birthplace_en: Kagoshima
 heights: !ruby/hash:SakuraGakuin::DateHash
   2013-05-05: 132
   2013-09-24: 136
+  2014-05-05: 141
 admission_date: 2013-05-05
 graduation_date: 2018-03-31
 diary_theme: 10069381434
@@ -576,3 +584,42 @@ introductions: !ruby/hash
     堀内(わっ!マジっすか?)
 attendances: !ruby/hash
   2013: イエッサー!
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 颯良
+firstname_kana: さら
+firstname_en: Sara
+lastname_ja: 倉島
+lastname_kana: くらしま
+lastname_en: Kurashima
+nicknames:
+  - さら
+  - さらちゃん
+  - さらってぃ〜
+birthday: 2002-02-24
+birthplace_ja: 茨城県
+birthplace_en: Ibaraki
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2014-05-05: 156
+admission_date: 2014-05-05
+graduation_date: 2017-03-31
+diary_theme: 10081424088
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 愛
+firstname_kana: めぐみ
+firstname_en: Megumi
+lastname_ja: 岡田
+lastname_kana: おかだ
+lastname_en: Okada
+nicknames:
+  - めぐみ
+  - めぐみちゃん
+birthday: 2002-04-04
+birthplace_ja: 愛知県
+birthplace_en: Aichi
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2014-05-05: 148
+admission_date: 2014-05-05
+graduation_date: 2018-03-31
+diary_theme: 10081424126
