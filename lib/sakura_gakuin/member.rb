@@ -114,7 +114,7 @@ module SakuraGakuin
     end
 
     def grade_ja(date=Date.today)
-      grade = grade_en
+      grade = grade_en(date)
       case grade
       when 1..6
         "小等部#{grade}年"
