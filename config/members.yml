@@ -371,6 +371,7 @@ heights: !ruby/hash:SakuraGakuin::DateHash
   2013-09-24: 148
   2014-02-15: 150.7 # http://ameblo.jp/sakuragakuin/theme-10025604354.html
   2014-05-05: 151
+  2014-09-07: 152 # 公開授業「さくら学院も、伝え方が9割」の授業にて
 admission_date: 2010-08-02
 graduation_date: 2015-03-31
 diary_theme: 10025604354
@@ -615,6 +616,8 @@ lastname_en: Okada
 nicknames:
   - めぐみ
   - めぐみちゃん
+  - めぐ
+  - めぐちゃん
 birthday: 2002-04-04
 birthplace_ja: 愛知県
 birthplace_en: Aichi
