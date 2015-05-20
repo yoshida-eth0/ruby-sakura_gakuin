@@ -629,3 +629,111 @@ heights: !ruby/hash:SakuraGakuin::DateHash
 admission_date: 2014-05-05
 graduation_date: 2018-03-31
 diary_theme: 10081424126
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 美澪奈
+firstname_kana: みれな
+firstname_en: Mirena
+lastname_ja: 黒澤
+lastname_kana: くろさわ
+lastname_en: Kurosawa
+nicknames:
+  - みれな
+birthday: 2001-05-22
+birthplace_ja: 東京都
+birthplace_en: Tokyo
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 150
+admission_date: 2015-05-06
+graduation_date: 2017-03-31
+diary_theme: 10090031736
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 百ヶ子
+firstname_kana: ももこ
+firstname_en: Momoko
+lastname_ja: 岡崎
+lastname_kana: おかざき
+lastname_en: Okazaki
+nicknames:
+  - ももこ
+birthday: 2003-03-03
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 150
+admission_date: 2015-05-06
+graduation_date: 2018-03-31
+diary_theme: 10090031738
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 真彩
+firstname_kana: まあや
+firstname_en: Maaya
+lastname_ja: 麻生
+lastname_kana: あそう
+lastname_en: Asou
+nicknames:
+  - まあや
+birthday: 2003-11-04
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 148.5
+admission_date: 2015-05-06
+graduation_date: 2019-03-31
+diary_theme: 10090031771
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 麻鈴
+firstname_kana: まりん
+firstname_en: Marin
+lastname_ja: 日髙
+lastname_kana: ひだか
+lastname_en: Hidaka
+nicknames:
+  - まりん
+birthday: 2003-12-01
+birthplace_ja: 神奈川県
+birthplace_en: Kanagawa
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 144.5
+admission_date: 2015-05-06
+graduation_date: 2019-03-31
+diary_theme: 10090031769
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 華乃
+firstname_kana: かの
+firstname_en: Kano
+lastname_ja: 藤平
+lastname_kana: ふじひら
+lastname_en: Fujihira
+nicknames:
+  - かの
+birthday: 2004-08-28
+birthplace_ja: 千葉県
+birthplace_en: Chiba
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 132
+admission_date: 2015-05-06
+graduation_date: 2020-03-31
+diary_theme: 10090031861
+
+--- !ruby/object:SakuraGakuin::Member
+firstname_ja: 爽葉香
+firstname_kana: そよか
+firstname_en: Soyoka
+lastname_ja: 吉田
+lastname_kana: よしだ
+lastname_en: Yoshida
+nicknames:
+  - そよか
+birthday: 2004-06-14
+birthplace_ja: 大阪府
+birthplace_en: Osaka
+heights: !ruby/hash:SakuraGakuin::DateHash
+  2015-05-06: 142
+admission_date: 2015-05-06
+graduation_date: 2020-03-31
+diary_theme: 10090031838
